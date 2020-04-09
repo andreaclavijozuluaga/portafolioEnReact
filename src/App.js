@@ -45,7 +45,7 @@ const App = () => {
 
       <nav id="nav" className="navbar fixed-top navbar-expand-lg navbar-dark bg-primary ">
         <div className="container ">
-          <a className="navbar-brand" href="#">Andrea Clavijo Zuluaga website</a>
+          <a className="navbar-brand" href="#"><strong>Andrea Clavijo Zuluaga</strong> Website</a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
@@ -61,9 +61,9 @@ const App = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#portafolio">Portafolio</a>
               </li>
-              {/* <li className="nav-item">
-                <a className="nav-link" href="#contacto">Contacto</a>
-              </li> */}
+              <li className="nav-item">
+                <a className="nav-link" href="#habilidades">Habilidades</a>
+              </li> 
             </ul>
           </div>
         </div>
@@ -81,10 +81,10 @@ const App = () => {
             </div>
             <div className="col-md-6">
               <div className="main-content-left">
-                <h1 className=""><br />Bienvenidos a mi Portafolio</h1>
-                <p className="mt-3">En este espacio te enseñare sobre los proyectos que he desarrollado como
-              Front-End, como tambien les hablare un poco acerca de mi. <br /> <br /> Espero les grade el contenido de mi Sitio Web.</p>
-                <a href="#" className="btn btn-outline-secondary mt-2">Portafolio</a>
+                <h1 className=""><br />Bienvenido a mi Portafolio</h1>
+                <p className="mt-3">En este espacio te enseñaré sobre los proyectos que he desarrollado como desarrolladora
+              Front-End, así como también les hablaré un poco acerca de mi. <br /> <br /> Espero les grade el contenido de mi Sitio Web.</p>
+                <a href="#portafolio" className="btn btn-outline-secondary mt-2">Portafolio</a>
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@ const App = () => {
         </div>
       </section>
 
-      <section id="informacion">
+      <section id="habilidades">
         <div className="container mt-4">
           <div className="row">
             <div className="col-md-4">
@@ -143,11 +143,11 @@ const App = () => {
           </h2>
 
           <p id="info-rp">
-            Soy desarrolladora Front-End, con enfoque en React, poseo conocimientos para elaborar y dar apoyo en procesos de desing thinking, me considero una persona hábil en el trabajo en equipo, además dinámica y con actitud constante por aprender.
+            Soy desarrolladora Front-End, con enfoque en React, tengo conocimiento para elaborar y dar apoyo en procesos de <strong>Desing Thinking</strong>, me considero una persona hábil en el trabajo en equipo, además dinámica y con actitud constante por aprender.
           </p>
 
           <h2 className="mt-5">
-            INFORMACION DE CONTACTO
+            INFORMACIÓN DE CONTACTO
           </h2>
 
           <p id="info-rp">
@@ -170,7 +170,7 @@ const App = () => {
             Haz bien lo que esté en tus manos, el resto lo hará el destino.
           </p>
           <p className="h4">
-            -Proverbio Japonés
+            <em>-Proverbio Japonés.</em>
           </p>
         </div>
       </section>
@@ -230,7 +230,7 @@ const App = () => {
             <div className="col-md-6">
               <div className="main-content-left">
                 <h1 className=""><br />Landing Page</h1>
-                <p id="info-rp" className="mt-2">Para realizar esta página Web utilice HTML y CSS,no he utilizado otras librerías no FrameWorks, el diseño es un poco simple, se enfoca en tonos rosados y purpuras, resaltando la feminidad y el poder.<br /><br />
+                <p id="info-rp" className="mt-2">Para realizar esta Página Web utilice HTML y CSS,no he utilizado otras librerías o FrameWorks, el diseño es un poco simple, se enfoca en tonos rosados y púrpuras, resaltando la feminidad y el poder.<br /><br />
 
               Como se puede observar se ofrecen  servicios de asesoría, enseñanza y maquillaje para cualquier tipo de ocasión.</p>
                 <a href="https://andreaclavijozuluaga.github.io/landingpage/" className="btn btn-outline-secondary mt-2">Ir a Landing Page</a>
@@ -261,7 +261,7 @@ const App = () => {
             <div className="col-md-6">
               <div className="main-content-left">
                 <h1 className=""><br />Formulario</h1>
-                <p id="info-rp" className="mt-2">Aquí elabaore un formulario, solo la parte visual aun no tiene validaciones o habilitada la opción para realizar el envio de la información.<br /><br />En esta página jugue con las opacidades, e utilice los contrastes de color verdososy naranjas, también cree un :hover: para ver el boton como si tuviera interacción.</p>
+                <p id="info-rp" className="mt-2">Aquí elabore un formulario, solo la parte visual aun no tiene validaciones o habilitada la opción para realizar el envio de la información.<br /><br />En esta página jugue con las opacidades, e utilice los contrastes de color verdososy naranjas, también cree un :hover: para ver el boton como si tuviera interacción.</p>
                 <a href="https://andreaclavijozuluaga.github.io/portafolio96/" className="btn btn-outline-secondary mt-2">Ir a Formulario</a>
               </div>
             </div>
@@ -289,24 +289,24 @@ const App = () => {
               </div>
             </div>
 
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-3">
               <div className="main-content-left">
                 <h1 className=""><br />Team Front-End</h1>
-                <p id="info-rp" className="mt-2">Página elaborada en grupo, tomando unas bases y párametros y establecidos para ser elaborada.</p>
+                <p id="info-rp" className="mt-2">Página elaborada en grupo, tomando unas bases y párametros ya pre-establecidos para ser elaborada.</p>
                 <a href="https://dinareales.github.io/front2_TeamFrontend/" className="btn btn-outline-secondary mt-5">Ir a Team Front-End</a>
               </div>
             </div>
 
-            <div className="col-md-6 mt-5 mb-5">
+            <div className="col-md-6 mt-3 mb-3">
               <div className="main-content-left">
                 <img className="d-block w-100" src={Portafolio} />
               </div>
             </div>
 
-            <div className="col-md-6 mt-5">
+            <div className="col-md-6 mt-3">
               <div className="main-content-left">
                 <h1 className=""><br />Portafolio</h1>
-                <p id="info-rp" className="mt-2">Este es mi primer portafolio elaborado con HTML, CSS y muchas Media Query Para que fuera un poco responsive.</p>
+                <p id="info-rp" className="mt-2">Este es mi primer portafolio elaborado con HTML, CSS y muchas Media Query, para que fuera un poco responsive.</p>
                 <a href="https://andreaclavijozuluaga.github.io/portafolio96/index.html" className="btn btn-outline-secondary mt-5">Ir a Portafolio</a>
               </div>
             </div>
@@ -319,7 +319,7 @@ const App = () => {
 
       <section id="frase">
         <div id="contacto" className="container">
-          <p className="h1 mb-2">
+          <p id="#informacion" className="h1 mb-2">
             ACERCA DE MI
           </p>
         </div>
