@@ -53,7 +53,7 @@ const App = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#header">Inicio</a>
+                <a className="nav-link" href="#inicio">Inicio</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#informacion">Acerca de mi</a>
@@ -61,9 +61,9 @@ const App = () => {
               <li className="nav-item">
                 <a className="nav-link" href="#portafolio">Portafolio</a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="#contacto">Contacto</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
@@ -84,7 +84,7 @@ const App = () => {
                 <h1 className=""><br />Bienvenidos a mi Portafolio</h1>
                 <p className="mt-3">En este espacio te enseñare sobre los proyectos que he desarrollado como
               Front-End, como tambien les hablare un poco acerca de mi. <br /> <br /> Espero les grade el contenido de mi Sitio Web.</p>
-                <a href="#portafolio" className="btn btn-outline-secondary mt-2">Portafolio</a>
+                <a href="#" className="btn btn-outline-secondary mt-2">Portafolio</a>
               </div>
             </div>
           </div>
@@ -177,7 +177,7 @@ const App = () => {
 
       
 
-      <section id="informacion">
+      <section id="">
         <div className="container mt-5">
           <div id="logos" className="row mt-5">
 
@@ -210,14 +210,14 @@ const App = () => {
       </section>
 
       <section id="frase">
-        <div className="container">
+        <div id="portafolio" className="container">
           <p className="h1 mb-2">
             PORTAFOLIO
           </p>
         </div>
       </section>
 
-      <div id="portafolio">
+      <div >
         <div className="container">
           <div className="row mt-5">
 
@@ -261,7 +261,7 @@ const App = () => {
             <div className="col-md-6">
               <div className="main-content-left">
                 <h1 className=""><br />Formulario</h1>
-                <p id="info-rp" className="mt-2">EAquí elabaore un formulario, solo la parte visual aun no tiene validaciones o habilitada la opción para realizar el envio de la información.<br /><br />En esta página jugue con las opacidades, e utilice los contrastes de color verdososy naranjas, también cree un :hover: para ver el boton como si tuviera interacción.</p>
+                <p id="info-rp" className="mt-2">Aquí elabaore un formulario, solo la parte visual aun no tiene validaciones o habilitada la opción para realizar el envio de la información.<br /><br />En esta página jugue con las opacidades, e utilice los contrastes de color verdososy naranjas, también cree un :hover: para ver el boton como si tuviera interacción.</p>
                 <a href="https://andreaclavijozuluaga.github.io/portafolio96/" className="btn btn-outline-secondary mt-2">Ir a Formulario</a>
               </div>
             </div>
@@ -325,7 +325,7 @@ const App = () => {
         </div>
       </section>
 
-      <section id="informacion">
+      <section id="ainformacion">
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-6">
