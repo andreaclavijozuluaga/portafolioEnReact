@@ -325,7 +325,7 @@ const App = () => {
         </div>
       </section>
 
-      <section id="ainformacion">
+      <section id="informacion">
         <div className="container mt-5">
           <div className="row">
             <div className="col-md-6">
